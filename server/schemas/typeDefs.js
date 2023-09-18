@@ -20,9 +20,6 @@ type Auth {
     token: ID!
     user: User
 }
-type Query {
-    me: User
-}  
 input InputBook {
     bookId: String
     authors: [String]
@@ -31,6 +28,9 @@ input InputBook {
     image: String
     link: String
 }
+type Query {
+    me: User
+}  
 type Mutation {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
