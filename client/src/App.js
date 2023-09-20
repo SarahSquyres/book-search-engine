@@ -8,7 +8,6 @@ import { setContext } from '@apollo/client/link/context';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
-  cache: new InMemoryCache()
 });
 
 const authLink = setContext((_, { headers }) => {
