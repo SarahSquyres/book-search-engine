@@ -2,6 +2,7 @@
 
 ## Credits
 https://github.com/cliff-rosenberg/21-MERN-Book-Search-Engine/tree/master 
+https://github.com/lapuzshawn/Book-Search-Engine/blob/main/server/schemas/resolvers.js 
 
 ## Your Task
 
